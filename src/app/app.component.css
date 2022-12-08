@@ -1,0 +1,34 @@
+p {
+  font-family: Lato;
+}
+.row {
+  width: 100%;
+  display: flex;
+  margin: 10px auto;
+
+ 
+}
+.label {
+  display: block;
+  width: 100%;
+  padding: 0 0 5px 0;
+
+}
+.col-md-6 {
+  width:50%;
+}
+button {
+  cursor: pointer;
+  padding: 5px 8px;
+  border: 1px solid rgb(46, 10, 10);
+  border-radius: 8px;
+  color:white;
+  font-weight: 400;
+  background: darkred;
+}
+input ,select {
+  width: 100%;
+  max-width: 200px;
+  padding:5px 10px;
+  border-radius: 8px;
+}
